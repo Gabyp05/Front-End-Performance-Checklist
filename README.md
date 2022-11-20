@@ -1,105 +1,111 @@
 <h1 align="center">
 <br>
-  <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist"><img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170"></a>
+  <a href="https://github.com/dagerzuga/Front-End-Performance-Checklist">
+    <img src="https://raw.githubusercontent.com/dagerzuga/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="" width="170">
+  </a>
   <br>
-    <br>
-  Lista de requerimientos para el rendimiento front-end
+  <br>
+    Check list para rendimento Front-End
   <br>
 </h1>
 
-<h4 align="center">🎮 La única lista de requerimientos para el rendimiento del front-end que corre más rápido que otras.</h4>
-<h4 align="center">🎮 </h4>
-<p align="center">Una regla simple: “Diseña y programa con rendimiento en mente”</p>
+<h4 align="center">🎮 La lista de requerimientos más rápida de todas</h4>
+<p align="center">Una simple regla: "Diseñe y programe teniendo en cuenta el rendimiento"</p>
 
 <p align="center">
   <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+    <img src="https://img.shields.io/badge/PRs-bienvenidas-brightgreen.svg?style=flat-square" alt="Se aceptan PRs">
   </a>
   <a href="https://discord.gg/btHQRkm">
-    <img src="https://img.shields.io/badge/chat-on_discord-4837E2.svg?style=flat-square" alt="Discord">
+    <img src="https://img.shields.io/badge/chat-en_discord-4837E2.svg?style=flat-square" alt="Chat en Discord">
   </a>
-    <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Licence MIT">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/licencia-MIT-blue.svg?style=flat-square" alt="Licencia MIT">
   </a>
 </p>
 
 <p align="center">
-  <a href="#uso">Cómo utilizar</a> • <a href="#contributing">Contribuyendo</a> • <a href="http://feedback.frontendchecklist.io/">Mapa del camino</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
+  <a href="#cómo-se-usa">¿Cómo se usa?</a> • <a href="#contribuir">Contribuir</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
 </p>
 
 <p align="center">
+  <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist">🇺🇸</a>
   <a href="https://github.com/JohnsenZhou/Front-End-Performance-Checklist">🇨🇳</a>
   <a href="https://github.com/WilliamDASILVA/Front-End-Performance-Checklist">🇫🇷</a>
-  <a href="https://github.com/ParkSB/Front-End-Performance-Checklist">🇰🇷</a>  
+  <a href="https://github.com/ParkSB/Front-End-Performance-Checklist">🇰🇷</a>
   <a href="https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹</a>
   <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
+  <a href="https://github.com/GameWith/Front-End-Performance-Checklist">🇯🇵</a>
+  <a href="https://github.com/ms-fadaei/Front-End-Performance-Checklist">🇮🇷</a>
+  <a href="https://github.com/huynhan147/FrontEnd-Performance-Checklist">🇻🇳</a>
+  <a href="https://github.com/mbiesiad/Front-End-Performance-Checklist">🇵🇱</a>
 </p>
 
 <p align="center">
-    <span>Otras listas de requerimientos:</span>
+    <span>Otros checklists (en inglés):</span>
     <br>
-  🗂 <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Lista de requerimientos para front-end</a> • 💎 <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Lista de requerimientos para diseño front-end</a>
+    🗂 <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Front-End checklist</a> • 💎 <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Front-End checklist para diseño</a>
 </p>
 
-## Tabla de contenidos
-
-1. **[HTML](#html)**
-2. **[CSS](#css)**
-3. **[Fonts](#fonts)**
-4. **[Imágenes](#images)**
-5. **[JavaScript](#javascript)**
-6. **[Server](#server) (en progreso)**
-7. **[Frameworks JS](#performances-and-js-frameworks) (en progreso)**
+## Nota de traducción
+Este projecto fue originalmente hecho en inglés, por lo cual, muchos enlaces y referencias - como con los articulos, plugins u otras recomendaciones - apuntan a sitios que están en inglés. Por favor, tomar esto en cuenta al momento de utilziar esta versión traducida al español. Asimismo, los nombres propios de sitios, herramientas y algunos otros elementos no serán traducidos al español y así evitar dar una falsa imagen de que dichos productos están también en español.
 
 ## Introducción
 
-El rendimiento es un tema amplio, pero no es siempre un tema del lado del back-end o del administrador. También es responsabilidad del front-end. La lista de requerimientos para el rendimiento front-end, es una lista exhaustiva de elementos que deberías revisar, o al menos ser consciente de ellos, como desarrollador front-end y aplicarla a tu proyecto (personal y profesional).
+El rendimiento es un tema amplio, pero no es siempre un tema del lado del back-end o del administrador. También es responsabilidad del front-end. Este checklist contiene una exhaustiva recopilación de elementos que deberías revisar, o al menos ser consciente de ellos como desarrollador front-end y aplicarla a tu proyecto (personal y profesional).
 
-### Uso
+### ¿Cómo se usa?
 
-Para cada regla, tendrás un párrafo explicando *el porqué* de la importancia de esta regla y *cómo* puedes arreglarla. Para información más detallada puedes encontrar links que te enviarán a 🛠 herramientas, 📖 artículos o 📹 contenido multimedia que puede completar la lista de requerimientos.
+Para cada regla, habrá un párrafo explicando *el porqué* de la importancia de esta regla y *cómo* se puede arreglar. Para más información, se encontrarán links que redirigirán a 🛠 herramientas, 📖 artículos, o 📹 contenido multimedia que puede completar la lista de requerimientos.
 
-Todos los elementos en **la lista de requerimientos para el rendimiento front-end** son esenciales para lograr el mayor porcentaje de rendimiento, pero encontrarás un indicador para ayudarte a eventualmente priorizar unas reglas sobre otras:
+Todos los elementos de este checklist son esenciales para lograr el mayor porcentaje de rendimiento, pero habrán indicadores para ayuadar a eventualmente priorizar unas reglas sobre otras:
 
-* ![Low][low] significa que el elemento es de prioridad **baja**.
-* ![Medium][medium] significa que el elemento es de prioridad **media**. No deberías evitar abordar dicho elemento.
-* ![High][high] significa que el elemento tiene una prioridad **alta**. No puedes evitar seguir dicha regla e implementar las correcciones recomendadas.
+* ![baja][low] Significa que tiene una prioridad **baja**.
+* ![media][medium] Significa que tiene un prioridad **media**. No se debería evitar abordar este elemento.
+* ![alta][high] Significa que el elemento tiene una prioridad **alta**. No se puede evitar seguir la regla e implementar las correciones recomendadas.
 
-### Herramientas de rendimiento
+### Herramientas para rendimiento
 
-Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o aplicación:
+Lista de herramientas que puede utilizar para probar o monitorear el sitio o aplicación:
 
- * 🛠 [WebPagetest - Prueba de optimización y rendimiento del sitio web](https://www.webpagetest.org/)
- * 🛠 ☆ [Dareboost: Prueba de velocidad y análisis del sitio web](https://www.dareboost.com/) (usa el cupón WPCDD20 para un -20%)
- * 🛠 [Treo: Control de velocidad de página](https://treo.sh/?ref=perfchecklist)
- * 🛠 [GTmetrix | Optimización de velocidad y rendimiento del sitio web](https://gtmetrix.com/)
+ * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
+ * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/)
+ * 🛠 [Treo: Page Speed Monitoring](https://treo.sh/?ref=perfchecklist)
+ * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
- * 🛠 [Prueba de velocidad del sitio Pingdom](https://tools.pingdom.com)
- * 📖 [Pagespeed - La herramienta y la guía de optimización](https://varvy.com/pagespeed/)
- * 📖 [Haz más rápida la web | Google Developers](https://developers.google.com/speed/)
- * 🛠 [Sitespeed.io - Bienvenido al maravilloso mundo del rendimiento web](https://www.sitespeed.io/)
+ * 🛠 [Web.dev](https://web.dev/measure)
+ * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
+ * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
+ * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
  * 🛠 [Calibre](https://calibreapp.com/)
- * 🛠 [Prueba de velocidad del sitio web | Verificación del rendimiento web &raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
- * 🛠 [Monitoreo de actividad del sitio web y del servidor - Pingdom](https://www.pingdom.com/product/uptime-monitoring/) ([Free Signup Link](https://www.pingdom.com/free))
- * 🛠 [Robot de tiempo de actividad](https://uptimerobot.com)
- * 🛠 [SpeedCurve: Monitor de rendimiento front-end](https://speedcurve.com)
- * 🛠 [PWMetrics - Herramienta CLI y librería para recopilar métricas de rendimiento](https://github.com/paulirish/pwmetrics)
- * 🛠 [Varvy - Optimización de velocidad de la página]( https://varvy.com/pagespeed/)
+ * 🛠 [Website Speed Test | Check Web Performance &raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
+ * 🛠 [Website and Server Uptime Monitoring - Pingdom](https://www.pingdom.com/product/uptime-monitoring/) ([Free Signup Link](https://www.pingdom.com/free))
+ * 🛠 [Uptime Robot](https://uptimerobot.com)
+ * 🛠 [SpeedCurve: Monitor front-end performance](https://speedcurve.com)
+ * 🛠 [PWMetrics - CLI tool and lib to gather performance metrics](https://github.com/paulirish/pwmetrics)
+ * 🛠 [Varvy - Page speed optimization]( https://varvy.com/pagespeed/)
  * 🛠 [Lighthouse - Google]( https://developers.google.com/web/tools/lighthouse/#devtools)
- * 🛠 [Checkbot browser extension - Verifica las mejores prácticas de rendimiento web](https://www.checkbot.io/)
- * 🛠 [Yellow Lab Tools | Prueba en línea para ayudar a acelerar páginas web pesadas](https://yellowlab.tools/)
+ * 🛠 [Checkbot browser extension - Checks for web performance best practices](https://www.checkbot.io/)
+ * 🛠 [Yellow Lab Tools | Online test to help speeding up heavy web pages](https://yellowlab.tools/)
+ * 🛠 [Speedrank - Web Performance Monitoring](https://speedrank.app/)
+ * 🛠 [DebugBear - Monitor website performance and Lighthouse scores](https://www.debugbear.com/)
+ * 🛠 [packtracker.io - Check your webpack bundle size on every pull request.](https://packtracker.io/)
+ * 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
+ * 🛠 [LogRocket - Measure front-end performance in production apps](https://logrocket.com)
 
-### Referencias (inglés)
+### Referencias
 
- * 📹 [El costo de JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([versión escrita](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
- * 📖 [Comience a analizar el rendimiento en tiempo de ejecución  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
- * 📖 [Estado de la web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
- * 📖 [El peso de la página no importa](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
- * 📖 [Lista de requerimiento para rendimiento front-end 2018 [PDF, Apple Pages]](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/)
- * 📖 [Diseñando para peso de alto rendimiento, estética y velocidad - Por Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
- * 📖 [Varvy - Glosario de rendimiento web](https://varvy.com/performance/)
- * 📖 [fabkrum/web-performance-resources: Recopilación actualizada de valiosos recursos de rendimiento web](https://github.com/fabkrum/web-performance-resources)
- * 📖 [Checkbot - Mejores prácticas de velocidad web](https://www.checkbot.io/guide/speed/)
+ * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
+ * [AddyOsmani.com - Start Performance Budgeting](https://addyosmani.com/blog/performance-budgets/)
+ * 📖 [Get Started With Analyzing Runtime Performance  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
+ * 📖 [State of the Web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
+ * 📖 [Page Weight Doesn't Matter](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
+ * 📖 [Front-End Performance Checklist 2021 [PDF, Apple Pages, MS Word]](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
+ * 📖 [Designing for Performance Weighing Aesthetics and Speed - By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
+ * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
+ * 📖 [fabkrum/web-performance-resources: Up to date collection of valuable web performance resources](https://github.com/fabkrum/web-performance-resources)
+ * 📖 [Checkbot - Web Speed Best Practices](https://www.checkbot.io/guide/speed/)
+ * 🛠 [Progressive Tooling - A list of community-built, third-party tools that can be used to improve page performance](https://progressivetooling.com/)
 
 ---
 
@@ -110,46 +116,14 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
 - [ ] **Minificar el HTML:** ![medium] El código HTML se minimiza, los comentarios, espacios en blanco y las nuevas líneas se eliminan de los archivos de producción.
 
     *¿Por qué?:*
-    > La eliminación de todos los espacios innecesarios, comentarios y rupturas reducirá el tamaño de tu HTML y acelerará los tiempos de carga de la página del sitio y, obviamente, aligerará la descarga para su usuario.
+    > Remover espacios innecesarios, comentarios, y atributos reduce el tamaño del HTML y acelera el tiempo de carga de la página.
 
     *¿Cómo?:*
     > La mayoría de los frameworks tienen plugins para facilitar la minificación de las páginas web. Puedes utilizar un montón de módulos de NPM que pueden hacer el trabajo por ti automáticamente.
 
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
     * 🛠 [Online HTML Compressor](http://refresh-sf.com)
-    * 📖 [Experimentando con un minificador HTML — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
-
-- [ ] **Eliminar comentarios innecesarios:** ![low] Asegurate de eliminar los comentarios de tus páginas.
-
-    *¿Por qué?:*
-    > Los comentarios no son realmente útiles para el usuario y debería eliminarse de los archivos de producción. Un caso en el que quieras conservar los comentarios podría ser si es necesario conservar el origen de una biblioteca.
-
-    *¿Cómo?:*
-    > ⁃ La mayoría de las veces, los comentarios pueden eliminarse utilizando un plugin que minify el HTML.
-
- * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
-
-- [ ] **Eliminar atributos innecesarios:** ![low] atributos type como `type="text/javascript"` o `type="text/css"` no son requeridos más y deberían ser eliminados.
-
-    ```html
-    <!-- Antes de HTML5 -->
-    <script type="text/javascript">
-        // código JavaScript
-    </script>
-
-    <!-- Hoy -->
-    <script>
-        // código JavaScript
-    </script>
-    ```
-
-    *¿Por qué?:*
-    > Los atributos type no son necesarios ya que HTML5 aplica text/css y text/javascript como valores por defecto. El código no utilizado debe eliminarse ya que da más peso a las páginas.
-
-    *¿Cómo?:*
-    > ⁃ Asegúrese de que todas sus etiquetas `<link>` y `<script>` no tienen el atributo type.
-
-    * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
+    * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
    
 - [ ] **Siempre colocar las etiquetas CSS antes que las etiquetas Javascript:** ![high] Asegúrese que tu CSS siempre carga antes que el código Javascript.
 
@@ -165,36 +139,49 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
     <script src="foo.js"></script>
     ```
 
-    *¿Por qué?:*
+   *¿Por qué?:*
     > Tener las etiquetas CSS antes que el Javascript permite una mejor descarga paralela, lo que optimiza el tiempo de carga del navegador.
 
     *¿Cómo?:*
-    > ⁃ Asegúrese que `<link>`  y `<style>` en `<head>`siempre van antes que `<script>`.
+    > Asegúrese que las etiquetas `<link>` y `<style>` en `<head>`siempre vayan antes que `<script>`.
 
     * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
 
 - [ ] **Minimiza el número de los iframes:** ![high] Usa iframes solo si no tienes otra posibilidad técnica. Intenta evitar iframes tanto como puedas.
 
-**[⬆ volver arriba](#tabla-de-contenidos)**
+- [ ] **Optimizar la pre-carga con prefetch, dns-prefetch y prerender:** ![low] Los navegadores populares pueden usar la directiva en la etiqueta `<enlace>` y el atributo "rel" con ciertas palabras clave para precargar URL específicas.
+
+   *¿Por qué?:*
+    > La captación previa permite que un navegador obtenga silenciosamente los recursos necesarios para mostrar contenido al que un usuario podría acceder en un futuro próximo. El navegador puede almacenar estos recursos en su caché y acelerar la forma en que se cargan las páginas web cuando utilizan diferentes dominios para los recursos de la página. Cuando una página web ha terminado de cargarse y ha pasado el tiempo de inactividad, el navegador comienza a descargar otros recursos. Cuando un usuario ingresa a un enlace en particular (ya precargado), el contenido se servirá instantáneamente.
+
+    *¿Cómo?:*
+    > Asegúrate de que `<link>` esté en tu sección `<head>`.
+
+    * 📖 [What Is Prefetching and Why Use It](https://www.keycdn.com/support/prefetching)
+    * 📖 [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
+    * 📖 [What is Preload, Prefetch, and Preconnect](https://www.keycdn.com/blog/resource-hints)
+
+**[⬆ Regresar al inicio](#table-of-contents)**
 
 ## CSS
 
 ![css]
 
-- [ ] **Minificación:** ![high] Todos los archivos CSS son minificados, los comentarios, los espacios en blanco y las nuevas líneas se eliminan de los archivos de producción.
+- [ ] **Minification:** ![high] Todos los archivos CSS se minimizan, los comentarios, los espacios en blanco y las nuevas líneas se eliminan de los archivos de producción.
 
-    *¿Por qué?:*
+   *¿Por qué?:*
     > Cuando se minimizan los archivos CSS, el contenido se carga más rápido y se envían menos datos al cliente. Es importante minimizar siempre los archivos CSS en producción. Es beneficioso para el usuario como lo es para cualquier empresa que desee reducir los costos de ancho de banda y reducir el uso de recursos.
 
     *¿Cómo?:*
-    > ⁃ Utilizando herramientas para minificar los archivos automáticamente o durante el desarrollo o el despliegue.
+    > Use herramientas para minimizar sus archivos automáticamente antes o durante su compilación o implementación.
 
     * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
+    * 🛠 [CSS Minfier](https://goonlinetools.com/css-minifier/)
     * 🛠 [@neutrinojs/style-minify - npm](https://www.npmjs.com/package/@neutrinojs/style-minify)
     * 🛠 [Online CSS Compressor](http://refresh-sf.com)
 
 
-- [ ] **Concatenación:** ![medium] Los archivos CSS son concatenados en un solo archivo *(No siempre válido para HTTP/2)*.
+- [ ] **Concatenación:** ![medium] Los archivos CSS se concatenan en un solo archivo *(No siempre es válido para HTTP/2)*.
 
     ```html
 
@@ -206,64 +193,54 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
     <link rel="stylesheet" href="foobar.css"/>
     ```
 
-    *¿Por qué?:*
-    > Si todavía estás utilizando HTTP/1, puede que necesites concatenar tus archivos, es menos cierto si tu servidor usa HTTP/2 (se deben realizar pruebas).
+   *¿Por qué?:*
+    > Si aún usa HTTP/1, es posible que deba concatenar sus archivos, es menos cierto si su servidor usa HTTP/2 (se deben realizar pruebas).
 
     *¿Cómo?:*
-    > ⁃ Utilizando una herramienta en línea o cualquier plugin antes o durante la compilación o implementación para concatenar los archivos. <br>
-    ⁃ Asegúrese, por supuesto, de que la concatenación no rompa el proyecto.
+    > ⁃ Use una herramienta en línea o cualquier complemento antes o durante su compilación o su implementación para concatenar sus archivos. <br>
+    ⁃ Asegúrese, por supuesto, de que la concatenación no rompa su proyecto.
 
     * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
     * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
 
-- [ ] **No-bloqueantes:** ![high] Los archivos CSS tienen que ser no-bloqueantes para evitar que el DOM demore  tiempo en cargar.
+- [ ] **No-bloqueadores:** ![high] Los archivos CSS no deben bloquear para evitar que el DOM tarde en cargarse.
 
     ```html
     <link rel="preload" href="global.min.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="global.min.css"></noscript>
     ```
 
-    *¿Por qué?:*
-    > Los archivos CSS pueden bloquear la carga de la página y retrasar el renderizado de la página. El uso de `preload` puede cargar los archivos CSS antes de que el navegador comience a mostrar el contenido de la página.
+   *¿Por qué?:*
+    > Los archivos CSS pueden bloquear la carga de la página y retrasar la visualización de su página. El uso de `preload` puede cargar los archivos CSS antes de que el navegador comience a mostrar el contenido de la página.
 
     *¿Cómo?:*
-    > ⁃ Necesitas agregar el atributo `rel` con el valor `preload` y agregar `as =" style "` en el elemento `<link>`.
+    > Debe agregar el atributo `rel` con el valor `preload` y agregar `as="style"` en el elemento `<link>`.
 
     * 🛠 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
     * 📖 [Example of preload CSS using loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
     * 📖 [Preloading content with rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
     * 📖 [Preload: What Is It Good For? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
 
-- [ ] **Longitud de las clases CSS:** ![low] La longitud de las clases puede tener un (leve) impacto en tus archivos HTML y CSS (eventualmente).
+- [ ] **CSS sin usar:** ![medium] Elimina los selectores de CSS no utilizados.
 
-    *¿Por qué?:*
-    > Incluso los impactos en el rendimiento puede ser discutibles, tomar una decisión sobre una estrategia de nomenclatura con respecto al proyecto puede tener un impacto sustancial en el mantenimiento de las hojas de estilo. Si estás utilizando BEM, en algunos casos, puede terminar con clases que tengan más caracteres de los necesarios. Siempre es importante elegir sabiamente los nombres y espacios de nombre.
+   *¿Por qué?:*
+    > Eliminar los selectores de CSS no utilizados puede reducir el tamaño de sus archivos y luego acelerar la carga de sus activos.
 
     *¿Cómo?:*
-    > Estableciendo un límite en los términos de números de caracteres podría ser interesante para algunas personas,  pero descomponiendo el sitio en componentes puede ayudar a reducir el número de clases (y declaraciones) y la longitud de las mismas.
-
-    * 🛠 [long vs short class · jsPerf](https://jsperf.com/long-vs-short-class)
-
-- [ ] **CSS sin utilizar:** ![medium] Elimina los selectores de CSS no utilizados.
-
-    *¿Por qué?:*
-    > Eliminar los selectores de CSS no utilizados puede reducir el tamaño de los archivos finales y luego acelerar la carga de los activos.
-    
-    *¿Cómo?:*
-    > ⁃ ⚠️ Siempre verifica si el framework CSS que quieres utilizar no tiene ya incluido un reset/normalice. Es posible que a veces no necesites todo lo que viene dentro del reset/normalize.
+    > ⁃ ⚠️ Siempre verifique si el framework CSS que desea usar aún no tiene un código de reinicio / normalización incluido (un normalize o reset en inglés). A veces es posible que no necesite todo lo que está dentro de su archivo de reinicio.
 
     * 🛠 [UnCSS Online](https://uncss-online.com/)
     * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
     * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
     * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
 
-* [ ] **CSS Crítico:** ![high] El CSS crítico (o "arriba del doblez") recoge todo el CSS utilizado para renderizar la parte visible de la página. Se incrusta antes de su llamada CSS principal y entre `<style> </ style>` en una sola línea (si es posible, se lo minimiza).
+* [ ] **CSS crítico:** ![high] El CSS crítico (o "sobre el pliegue") recopila todo el CSS utilizado para mostrar la parte visible de la página. Está incrustado antes de su llamada CSS principal y entre `<style></style>` en una sola línea (minimizado si es posible).
 
-    *¿Por qué?:*
-    > Enlinear CSS crítico ayuda a acelerar el procesamiento de las páginas web, reduciendo la cantidad de solicitudes al servidor.
+   *¿Por qué?:*
+    > La integración de CSS crítico ayuda a acelerar la representación de las páginas web, lo que reduce la cantidad de solicitudes al servidor.
 
     *¿Cómo?:*
-    > Generando el CSS crítico con herramientas en línea o usando un complemento como el desarrollado por Addy Osmani.
+    > Genere el CSS crítico con herramientas en línea o usando un complemento como el que desarrolló Addy Osmani.
 
     * 📖 [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
     * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
@@ -272,43 +249,44 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
      * 📖 [Reduce the size of the above-the-fold content
 ](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
 
-- [ ] **CSS incrustado o en línea:** ![high] Evitar el uso de CSS incrustado o en línea dentro del  `<body>` *(No válido para HTTP/2)*
+- [ ] **CSS incrustado o en línea:** ![high] Evite usar CSS incrustado o en línea dentro de su `<body>` *(No es válido para HTTP/2)*
 
-    *¿Por qué?:*
-    > Una de las principales razones es porque es buena práctica  *separar el contenido del diseño**. También ayuda a tener un código más mantenible y un sitio más accesible. Pero, en relación al rendimiento, es simplemente porque disminuye el tamaño el archivo del HTML y el tiempo de carga.
+   *¿Por qué?:*
+    > Una de las primeras razones es porque es una buena práctica **separar el contenido del diseño**. También lo ayuda a tener un código más fácil de mantener y mantener su sitio accesible. Pero en cuanto al rendimiento, es simplemente porque disminuye el tamaño de archivo de sus páginas HTML y el tiempo de carga.
 
     *¿Cómo?:*
-    > Siempre utilizar hojas de estilo externas o incrustadas en el `<head>` (y seguir las otras reglas de rendimiento de CSS)
+    > Utilice siempre hojas de estilo externas o incruste CSS en su `<head>` (y siga las demás reglas de rendimiento de CSS)
 
     * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
 
-- [ ] **Analiza la complejidad de las hojas de estilo:** ![high] Analizar las hojas de estilo puede ayudarte a encontrar problemas, redundancias y sectores CSS duplicados.
+- [ ] **Analice la complejidad de las hojas de estilo:** ![high] El análisis de sus hojas de estilo puede ayudarlo a señalar problemas, redundancias y selectores de CSS duplicados.
 
-    *¿Por qué?:*
-    > A veces puedes tener redundancias o errores de validación en el CSS, analizar los archivos y eliminar estas complejidades puede ayudarte a acelerarlos (porque el navegador cargará más rápido)
+   *¿Por qué?:*
+    > A veces puede tener redundancias o errores de validación en su CSS, analizar sus archivos CSS y eliminar estas complejidades puede ayudarlo a acelerar sus archivos CSS (porque su navegador los leerá más rápido)
 
     *¿Cómo?:*
-    > El CSS debe estar organizado, utilizar un preprocesador CSS puede ayudar con eso. Algunas herramientas en línea que se enumeran a continuación, también pueden ayudar a corregir el código.
+    > Su CSS debe estar organizado, usar un preprocesador de CSS puede ayudarlo con eso. Algunas herramientas en línea que se enumeran a continuación también pueden ayudarlo a analizar y corregir su código.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
-    * 📖 [CSS Stats](https://cssstats.com/)
+    * 🛠 [CSS Stats](https://cssstats.com/)
     * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
+    * 🛠 [Project Wallace](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
 
-**[⬆ volver arriba](#tabla-de-contenidos)**
+**[⬆ Regresar al inicio](#table-of-contents)**
 
-## Fonts
+## Fuentes
 
 ![fonts]
 
 * 📖 [A Book Apart, Webfont Handbook](https://abookapart.com/products/webfont-handbook)
 
-- [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
+- [ ] **formatos Webfont:** ![medium] Está utilizando WOFF2 en su proyecto o aplicación web.
 
-    *¿Por qué?:*
-    > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
+   *¿Por qué?:*
+    > Según Google, el formato de compresión WOFF 2.0 Web Font ofrece una ganancia promedio del 30 % sobre WOFF 1.0. Entonces es bueno usar WOFF 2.0, WOFF 1.0 como respaldo y TTF.
 
     *¿Cómo?:*
-    > Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
+    > Comprueba antes de comprar tu nueva fuente que el proveedor te dé el formato WOFF2. Si está utilizando una fuente gratuita, siempre puede usar Font Squirrel para generar todos los formatos que necesita.
 
     * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
     * 🛠 [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
@@ -316,19 +294,19 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
     * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
     * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
 
-- [ ] **Use `preconnect` to load your fonts faster:** ![medium]
+- [ ] **Use `preconnect` para cargar las fuentes más rápido:** ![medium]
 
     ```html
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     ```
 
-    *¿Por qué?:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser to lookup the DNS information and start establising a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
+   *¿Por qué?:*
+    > Cuando llega a un sitio web, su dispositivo necesita averiguar dónde se encuentra su sitio y con qué servidor necesita conectarse. Su navegador tuvo que ponerse en contacto con un servidor DNS y esperar a que se completara la búsqueda antes de obtener el recurso (fuentes, archivos CSS...). Las precargas y las preconexiones permiten que el navegador busque la información de DNS y comience a establecer una conexión TCP con el servidor que aloja el archivo de fuente. Esto proporciona un aumento de rendimiento porque para cuando el navegador analice el archivo css con la información de la fuente y descubra que necesita solicitar un archivo de fuente del servidor, ya habrá resuelto previamente la información de DNS y tendrá una conexión abierta. al servidor listo en su conjunto de conexiones.
 
     *¿Cómo?:*
-    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested <br>
-    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too
+    > ⁃ Antes de precargar sus fuentes web, use webpagetest para evaluar su sitio web <br>
+    ⁃ Busque búsquedas de DNS de color verde azulado y observe el host que se solicita <br>
+    ⁃ Precarga tus fuentes web en tu `<head>` y agrega eventualmente estos nombres de host que también deberías precargar
 
     * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
     * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
@@ -336,33 +314,33 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
     * 📖 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
     * 🛠 [typekit/webfontloader: Web Font Loader gives you added control when using linked fonts via @font-face.](https://github.com/typekit/webfontloader)
 
-- [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
+- [ ] **El tamaño del Webfont:** ![medium] Los tamaños de fuente web no superan los 300 kb (todas las variantes incluidas)
 
  * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
 
-- [ ] **Prevent Flash or Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
+- [ ] **Evitar texto invisible o flash:** ![medium] Evite el texto transparente hasta que se cargue Webfont
 
  * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
  * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
-**[⬆ volver arriba](#tabla-de-contenidos)**
+**[⬆ Regresar al inicio](#table-of-contents)**
 
-## Images
+## Imágenes
 
 ![images]
 
  * 📖 [Image Bytes in 2018](https://httparchive.org/reports/page-weight#bytesImg)
 
-* [ ] **Images optimization:** ![high] Your images are optimized, compressed without direct impact to the end user.
+* [ ] **Optimización de imágenes:** ![high] Sus imágenes están optimizadas, comprimidas sin impacto directo para el usuario final.
 
-    *¿Por qué?:*
-    > Optimized images load faster in your browser and consume less data.
+   *¿Por qué?:*
+    > Las imágenes optimizadas se cargan más rápido en su navegador y consumen menos datos.
 
     *¿Cómo?:*
-    > ⁃ Try using CSS3 effects when it's possible (instead of a small image) <br>
-    ⁃ When it's possible, use fonts instead of text encoded in your images <br>
+    > ⁃ Intente usar efectos CSS3 cuando sea posible (en lugar de una imagen pequeña) <br>
+    ⁃ Cuando sea posible, use fuentes en lugar de texto codificado en sus imágenes <br>
     ⁃ Use SVG <br>
-    ⁃ Use a tool and specify a level compression under 85.
+    ⁃ Use una herramienta y especifique un nivel de compresión por debajo de 85.
 
     * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
     * 📖 [Essential Image Optimization - An eBook by Addy Osmani](https://images.guide/)
@@ -370,145 +348,148 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
     * 🛠 [Kraken.io - Online Image Optimizer](https://kraken.io/web-interface)
     * 🛠 [Compressor.io - optimize and compress JPEG photos and PNG images](https://compressor.io/compress)
     * 🛠 [Cloudinary - Image Analysis Tool](https://webspeedtest.cloudinary.com)
+    * 🛠 [ImageEngine - Image Webpage Loading Test](https://demo.imgeng.in)
     * 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
 
 
-* [ ] **Images format:** ![high] Choose your image format appropriately.
+* [ ] **Formato de imágenes:** ![high] Elija su formato de imagen apropiadamente.
 
-    *¿Por qué?:*
-    > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the nex-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
+   *¿Por qué?:*
+    > Para asegurarse de que sus imágenes no ralenticen su sitio web, elija el formato que corresponderá a su imagen. Si se trata de una foto, JPEG suele ser más apropiado que PNG o GIF. Pero no olvide buscar los formatos de próxima generación que pueden reducir el tamaño de sus archivos. Cada formato de imagen tiene pros y contras, es importante conocerlos para hacer la mejor elección posible.
 
     *¿Cómo?:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP) <br>
-    ⁃ Compare different formats, sometimes using PNG8 is better than PNG16, sometimes it's not.
+    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) para identificar qué imágenes pueden eventualmente usar **formatos de siguiente-generación** (como JPEG 2000m JPEG XR o WebP) <br>
+    ⁃ Compare diferentes formatos, a veces usar PNG8 es mejor que PNG16, a veces no lo es.
 
     * 📖 [Serve Images in Next-Gen Formats  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
     * 📖 [What Is the Right Image Format for Your Website? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
     * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
     * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
-- [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
+- [ ] **Usar imagen vectorial vs ráster/mapa de bits:** ![medium] Prefiere usar imágenes vectoriales en lugar de imágenes de mapa de bits (cuando sea posible).
 
-    *¿Por qué?:*
-    > Vector images (SVG) tend to be smaller than images and SVG's are responsive and scale perfectly. These images can be animated and modified by CSS.
+   *¿Por qué?:*
+    > Las imágenes vectoriales (SVG) tienden a ser más pequeñas que las imágenes y los SVG responden y escalan perfectamente. Estas imágenes pueden ser animadas y modificadas por CSS.
 
-* [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
+* [ ] **Dimensiones de imagen:** ![medium] Agregue los atributos `width` y `height` en el tag `<img>` si se conoce el tamaño final de la imagen.
 
-    *¿Por qué?:*
-    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+   *¿Por qué?:*
+    > Si se establecen alto y ancho, el espacio requerido para la imagen se reserva cuando se carga la página. Sin embargo, sin estos atributos, el navegador no conoce el tamaño de la imagen y no puede reservarle el espacio adecuado. El efecto será que el diseño de la página cambiará durante la carga (mientras se cargan las imágenes).
 
-* [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
+* [ ] **Evite el uso de imágenes Base64:** ![medium] Eventualmente podría convertir imágenes diminutas a base64, pero en realidad no es la mejor práctica.
 
     * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
     * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
     * 📖 [When to base64 encode images (and when not to) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
    * 📖 [Base64 encoding images for faster pages | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
 
-* [ ] **Lazy loading:** ![medium] Offscreen images are loaded lazily (A noscript fallback is always provided).
+* [ ] **Lazy loading:** ![medium] Las imágenes fuera de pantalla se cargan con el enfoque lazy loading.
 
-    *¿Por qué?:*
-    > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
+   *¿Por qué?:*
+    > Mejorará el tiempo de respuesta de la página actual y luego evitará cargar imágenes innecesarias que el usuario puede no necesitar.
 
     *¿Cómo?:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
-    ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only. <br>
-    ⁃ Also make sure to lazyload alternative images shown at mouseover or upon other user actions.
+    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) para identificar **imágenes fuera de pantalla**. <br>
+    ⁃ Use un plugin de JavaScript como el siguiente para cargar sus imágenes de forma diferida. Asegúrate de apuntar solo a imágenes fuera de pantalla. <br>
+    ⁃ También asegúrese de cargar de forma diferida las imágenes alternativas que se muestran al pasar el mouse por encima o en otras acciones del usuario.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
+    * 🛠 [mfranzke/loading-attribute-polyfill: GitHub](https://github.com/mfranzke/loading-attribute-polyfill/)
     * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
     * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
-* [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
+* [ ] **Imágenes responsivas:** ![medium] Asegúrese de publicar imágenes que se acerquen al tamaño de su pantalla.
 
-    *¿Por qué?:*
-    > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
+   *¿Por qué?:*
+    > Los dispositivos pequeños no necesitan imágenes más grandes que su ventana gráfica. Es Recomendado tener múltiples versiones de una imagen en diferentes tamaños.
 
     *¿Cómo?:*
-    > ⁃ Create different image sizes for the devices you want to target. <br>
-    ⁃ Use `srcset` and `picture` to deliver multiple variants of each image.
+    > ⁃ Cree diferentes tamaños de imagen para los dispositivos a los que desea dirigirse. <br>
+    ⁃ Use `srcset` y `picture` para entregar múltiples variantes de cada imagen.
 
      * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-**[⬆ volver arriba](#tabla-de-contenidos)**
+**[⬆ Regresar al inicio](#table-of-contents)**
 
 ## JavaScript
 
 ![javascript]
 
-- [ ] **JS Minification:** ![high] All JavaScript files are minified, comments, white spaces and new lines are removed from production files *(still valid if using HTTP/2)*.
+- [ ] **Minificación:** ![high] Todos los archivos JavaScript se minimizan, los comentarios, los espacios en blanco y las nuevas líneas se eliminan de los archivos de producción *(aún válido si se usa HTTP/2)*.
 
-    *¿Por qué?:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your JavaScript files and speed up your site's page load times and obviously lighten the download for your user.
+   *¿Por qué?:*
+    > Eliminar todos los espacios, comentarios y pausas innecesarios reducirá el tamaño de sus archivos JavaScript y acelerará los tiempos de carga de la página de su sitio y, obviamente, aligerará la descarga para su usuario.
 
     *¿Cómo?:*
-    > ⁃ Use the tools suggested below to minify your files automatically before or during your build or your deployment.
+    > Utilice las herramientas sugeridas a continuación para minimizar sus archivos automáticamente antes o durante su compilación o implementación.
 
     * 🛠 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
     * 🛠 [Online JavaScript Compressor](http://refresh-sf.com)
     * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
 
-* [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
+* [ ] **JavaScript dentro del HTML:** ![medium] *(Solo válido para sitio web)* Evite tener múltiples códigos JavaScript incrustados en el medio de su cuerpo. Reagrupa tu código JavaScript dentro de archivos externos o eventualmente en `<head>` o al final de tu página (antes de `</body>`).
 
-    *¿Por qué?:*
-    > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
+   *¿Por qué?:*
+    > Colocar el código incrustado de JavaScript directamente en su `<cuerpo>` puede ralentizar su página porque se carga mientras se construye el DOM. La mejor opción es usar archivos externos con `async` o `defer` para evitar bloquear el DOM. Otra opción es colocar algunos scripts dentro de su `<head>`. La mayoría de las veces, el código de análisis o el pequeño script deben cargarse antes de que el DOM llegue al procesamiento principal.
 
     *¿Cómo?:*
-    > Ensure that all your files are loaded using `async` or `defer` and decide wisely the code that you will need to inject in your `<head>`.
+    > Asegúrese de que todos sus archivos se carguen usando `async` o `defer` y decida sabiamente el código que necesitará inyectar en su `<head>`.
 
      * 📖 [11 Tips to Optimize JavaScript and Improve Website Loading Speeds](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
 
-* [ ] **Non-blocking JavaScript:** ![high] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+* [ ] **JavaScript no bloqueante:** ![high] Los archivos de JavaScript se cargan de forma asíncrona usando `async` o se difieren usando el atributo `defer`.
 
     ```html
-    <!-- Defer Attribute -->
+    <!-- usando el atributo "Defer" -->
     <script defer src="foo.js"></script>
 
-    <!-- Async Attribute -->
+    <!-- usando el atributo "Async" -->
     <script async src="foo.js"></script>
     ```
 
-    *¿Por qué?:*
-    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fetch and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
+   *¿Por qué?:*
+    > JavaScript bloquea el análisis normal del documento HTML, por lo que cuando el analizador llega a una etiqueta `<script>` (particularmente está dentro de `<head>`), se detiene para buscarlo y ejecutarlo. Agregar `async` o `defer` es muy recomendable si sus scripts se colocan en la parte superior de su página, pero es menos valioso si se encuentra justo antes de la etiqueta `</body>`. Pero es una buena práctica usar siempre estos atributos para evitar cualquier problema de rendimiento.
 
     *¿Cómo?:*
-    > ⁃ Add `async` (if the script don't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag. <br>
-    ⁃ If you have small scripts, maybe use inline script place above async scripts.
+    > Agregue `async` (si el script no se basa en otros scripts) o `defer` (si el script depende de un script asíncrono) como un atributo a la etiqueta script. <br>
+     ⁃ Si tiene scripts pequeños, tal vez, usar script inline arriba de los script async sea buena idea.
 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
     * 📖 [Defer loading JavaScript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
-* [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
+* [ ] **Bibliotecas JS optimizadas y actualizadas:** ![medium] Todas las bibliotecas de JavaScript utilizadas en su proyecto son necesarias (prefiera JavaScript Vanilla para funcionalidades simples), actualizadas a su última versión y no abrume su JavaScript con métodos innecesarios.
 
-    *¿Por qué?:*
-    > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
+   *¿Por qué?:*
+    > La mayoría de las veces, las nuevas versiones vienen con optimización y corrección de seguridad. Debe usar el código más optimizado para acelerar su proyecto y asegurarse de no ralentizar su sitio web o aplicación sin un complemento desactualizado.
 
     *¿Cómo?:*
-    > If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
-    > [Greenkeeper](https://greenkeeper.io/) can automatically look for your dependencies and suggest an update evey time a new version is out.
+    > Si tu proyecto usa paquetes de NPM, [npm-check](https://www.npmjs.com/package/npm-check) es una biblioteca bastante interesante para actualizar / actualizar sus bibliotecas.
+    > [Greenkeeper](https://greenkeeper.io/) puede buscar automáticamente sus dependencias y sugerir una actualización cada vez que sale una nueva versión.
 
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
+- [ ] **Check dependencies size limit:** ![low] Asegúrese de usar sabiamente bibliotecas externas, la mayoría de las veces, puede usar una biblioteca más ligera para una misma funcionalidad.
 
-    *¿Por qué?:*
-    > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
+   *¿Por qué?:*
+    > Puede sentirse tentado a usar uno de los 745 000 paquetes que puede encontrar en [npm](https://www.npmjs.com/), pero debe elegir el mejor paquete para sus necesidades. Por ejemplo, MomentJS es una biblioteca increíble pero con muchos métodos que quizás nunca uses, por eso se creó Day.js. Son solo 2kB frente a 16,4kB gz para Moment.
 
     *¿Cómo?:*
-    > Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package downloads counts or [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies.
+    > Compare y elija siempre la biblioteca mejor y más ligera para sus necesidades. También puede usar herramientas como [npm Trends](http://www.npmtrends.com/) para comparar los recuentos de descargas de paquetes de NPM o [Bundlephobia](https://bundlephobia.com/) para conocer el tamaño de sus dependencias.
 
     * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
     * 🛠 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
+    * 🛠 [js-dependency-viewer - npm](https://www.npmjs.com/package/js-dependency-viewer)
     * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
-- [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
+- [ ] **Profiling en JavaScript:** ![medium] Compruebe si hay problemas de rendimiento en sus archivos JavaScript (y también en CSS).
 
-    *¿Por qué?:*
-    > JavaScript complexity can slow down runtime performance. Identifying these possible issues are essential to offer the smoothest user experience.
+   *¿Por qué?:*
+    > La complejidad de JavaScript puede ralentizar el rendimiento del tiempo de ejecución. Identificar estos posibles problemas es esencial para ofrecer la experiencia de usuario más fluida.
 
     *¿Cómo?:*
-    > Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
+    > Use la herramienta Línea de tiempo en la Herramienta para desarrolladores de Chrome para evaluar los eventos de los scripts y encontrar el que puede llevar demasiado tiempo.
 
      * 📖 [Speed Up JavaScript Execution  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
     * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
@@ -516,23 +497,23 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
     * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
     * 📖 [30 Tips To Improve Javascript Performance](http://www.monitis.com/blog/30-tips-to-improve-javascript-performance/)
 
-- [ ] **Use of Service Workers:** ![medium] You are using Service Workers in your PWA to cache datas or execute possible heavy tasks without impacting the user experience of your application.
+- [ ] **Utilice Service Workers:** ![medium] Está utilizando Service Workers en su PWA para almacenar datos en caché o ejecutar posibles tareas pesadas sin afectar la experiencia del usuario de su aplicación.
    
     * 📖 [Service Workers: an Introduction  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/primers/service-workers/)
     * 📖 [Measuring the Real-world Performance Impact of Service Workers  |  Web  |  Google Developers](https://developers.google.com/web/showcase/2016/service-worker-perf)
     * 📖 [What Are Service Workers and How They Help Improve Performance](https://www.keycdn.com/blog/service-workers/)
-    * 📖 [How does a service worker work? - YouTube](https://www.youtube.com/watch?v=__xAtWgfzvc)
+    * 📹 [How does a service worker work? - YouTube](https://www.youtube.com/watch?v=__xAtWgfzvc)
 
-**[⬆ volver arriba](#tabla-de-contenidos)**
+**[⬆ Regresar al inicio](#table-of-contents)**
 
-## Server
+## Servidor
 
 ![server-side]
 
-- [ ] **Your website is using HTTPS:** ![high] 
+- [ ] **El sitio está utilizando HTTPS:** ![high]
 
-    *¿Por qué?:*
-    > HTTPS is not only for ecommerce websites, but for all websites that is exchanging datas. Datas shared by a user or datas shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
+   *¿Por qué?:*
+    > HTTPS no es solo para sitios web de comercio electrónico, sino para todos los sitios web que intercambian datos. Datos compartidos por un usuario o datos compartidos con una entidad externa. Los navegadores modernos de hoy limitan las funcionalidades de los sitios que no son seguros. Por ejemplo: la geolocalización, las notificaciones push y los trabajadores del servicio no funcionan si su instancia no usa HTTPS. Y hoy es mucho más fácil configurar un proyecto con un certificado SSL que antes (y gratis, gracias a [Let's Encrypt](https://letsencrypt.org/)).
 
  * 📖 [Why Use HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
  * 📖 [Enabling HTTPS Without Sacrificing Your Web Performance - Moz](https://moz.com/blog/enabling-https-without-sacrificing-web-performance)
@@ -540,44 +521,44 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
  * 📖 [HTTP versus HTTPS versus HTTP2 - The real story | Tune The Web](https://www.tunetheweb.com/blog/http-versus-https-versus-http2/)
  * 📖 [HTTP vs HTTPS — Test them both yourself](https://www.httpvshttps.com/)
 
-- [ ] **Page weight < 1500 KB (ideally < 500 KB):** ![high] Reduce the size of your page + resources as much as you can.
+- [ ] **Peso del sitio < 1500 KB (idealmente < 500 KB):** ![high] Reduce el tamaño de tu página + recursos tanto como puedas.
 
-    *¿Por qué?:*
-    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, network connection, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
+   *¿Por qué?:*
+    > Idealmente, debería intentar apuntar a < 500 KB, pero el estado de la web muestra que la mediana de Kilobytes es de alrededor de 1500 KB (incluso en dispositivos móviles). Dependiendo de sus usuarios objetivo, conexión de red, dispositivos, es importante reducir tanto como sea posible su total de Kilobytes para tener la mejor experiencia de usuario posible.
 
     *¿Cómo?:*
-    > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
+    > ⁃ Todas las reglas dentro de la Lista de verificación de rendimiento de front-end lo ayudarán a reducir tanto como sea posible sus recursos y su código.
 
     * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
     * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
     * 🛠 [web - Measure full page size in Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
 
-- [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
+- [ ] **Tiempo de carga de la página < 3 segundos:** ![high] Reduzca al máximo los tiempos de carga de su página para entregar rápidamente su contenido a sus usuarios.
 
-    *¿Por qué?:*
-    > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
+   *¿Por qué?:*
+    > Cuanto más rápido sea su sitio web o aplicación, menor será la probabilidad de que aumente el rebote, en otros términos, tendrá menos posibilidades de perder a su usuario o futuro cliente. Suficientes investigaciones sobre el tema prueban ese punto.
 
     *¿Cómo?:*
-    > Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
+    > Utilizando herramientas como [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) o [WebPageTest](https://www.webpagetest.org/) para analizar qué podría estar ralentizándolo, también puede usar este projecto para optimizar el rendimiento en general.
 
     * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
     * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
     * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
 
-- [ ] **Time To First Byte < 1.3 seconds:** ![high] Reduce as much as you can the time your browser waits before receiving data.
+- [ ] **Tiempo para el primer byte < 1,3 segundos:** ![high] Reduzca al máximo el tiempo de espera de su navegador antes de recibir datos.
 
     * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
     * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
     * 📖 [Time to First Byte (TTFB)](https://varvy.com/pagespeed/ttfb.html)
     * 🛠 [Global latency testing tool](https://latency.apex.sh)
 
-* [ ] **Cookie size:** ![medium] If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+* [ ] **Tamaño de los cookies:** ![medium] Si está utilizando cookies, asegúrese de que cada cookie no supere los 4096 bytes y que su nombre de dominio no tenga más de 20 cookies.
 
-    *¿Por qué?:*
-    > cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+   *¿Por qué?:*
+    > Las cookies se intercambian en los encabezados HTTP entre los servidores web y los navegadores. Es importante mantener el tamaño de las cookies lo más bajo posible para minimizar el impacto en el tiempo de respuesta del usuario.
 
     *¿Cómo?:*
-    > Eliminate unnecessary cookies
+    > Elimine cookies que no sean necesarias.
 
     * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
     * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
@@ -585,33 +566,34 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
     * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
     * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
-- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
+- [ ] **Minimizar las solicitudes HTTP:** ![high] Asegúrese siempre de que todos los archivos solicitados sean esenciales para su sitio web o aplicación.
+
  * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
  * 📖 [Combine external JavaScript](https://varvy.com/pagespeed/combine-external-javascript.html)
 
-- [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
+- [ ] **Use un CDN para entregar sus activos:** ![medium] Utilice una CDN para entregar más rápido su contenido en todo el mundo.
 
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **Serve files from the same protocol:** ![high] Avoid having your website serving files coming from source using HTTP on your website which is using HTTPS for example. If your website is using HTTPS, external files should come from the same protocol.
+- [ ] **Servir archivos desde el mismo protocolo:** ![high] Evite que su sitio web sirva archivos provenientes de una fuente usando HTTP en su sitio web que usa HTTPS, por ejemplo. Si su sitio web usa HTTPS, los archivos externos deben provenir del mismo protocolo.
 
-- [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
+- [ ] **Servir archivos accesibles:** ![high] Evite solicitar archivos inalcanzables (404).
  * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
-- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
+- [ ] **Establecer encabezados de caché HTTP correctamente:** ![high] Establezca encabezados HTTP para evitar una costosa cantidad de viajes de ida y vuelta entre su navegador y el servidor.
  * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
 
-- [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
+- [ ] **La compresión GZIP / Brotli está habilitada:** ![high] Utilice un método de compresión como Gzip o Brotli para reducir el tamaño de sus archivos JavaScript. Con un archivo de menor tamaño, los usuarios podrán descargar el activo más rápido, lo que resultará en un mejor rendimiento.
 
  * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
  * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
  * 📖 [Can I use... Brotli](https://caniuse.com/#feat=brotli)
 
-**[⬆ volver arriba](#tabla-de-contenidos)**
+**[⬆ Regresar al inicio](#table-of-contents)**
 
 ---
-## Performances and JS Frameworks
+## Rendimiento y frameworks de JavaScript
 
 ### Angular
  * 📖 [Angular Performance Checklist](https://github.com/mgechev/angular-performance-checklist)
@@ -621,21 +603,23 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
  * 📖 [Optimizing Performance - React](https://reactjs.org/docs/optimizing-performance.html)
  * 📖 [React image manipulation | Cloudinary](https://cloudinary.com/documentation/react_image_manipulation)
  * 📖 [Debugging React performance with React 16 and Chrome Devtools.](https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad)
+  * 📖 [Build Performant - React](https://web.dev/react/)
 
 ### Vue
+ * 📖 [Vue - Useful Links|Style Guide and Performance](https://learn-vuejs.github.io/vue-patterns/useful-links/)
 
-## Performances and CMS
+## Rendimiento y CMS
 
 ### WordPress
 
 * 🛠 [Test Your Website Speed | WordPress Hosting by @WPEngine](https://wpengine.com/speed-tool/)
 
-#### Articles
+#### Artículos
 
  * 📖 [19 Tips to Speed Up WordPress Performance (Updated)](https://www.wpbeginner.com/wordpress-performance-speed/)
  * 📖 [Speed Up Your WordPress - How to Save Images Optimized for Web](https://www.wpbeginner.com/beginners-guide/speed-wordpress-save-images-optimized-web/)
 
-#### Plugins recommended
+#### Plugins recomendados
 
 * 🛠 [Caching Plugin for WordPress - Speed up your website with WP Rocket](https://wp-rocket.me/)
 * 🛠 [WP-Sweep | WordPress.org](https://wordpress.org/plugins/wp-sweep/)
@@ -643,50 +627,55 @@ Lista de herramientas que puedes utilizar para probar o monitorear tu sitio o ap
 
 ---
 
-## Translations
+## Traducciones
 
-The Front-End Performance Checklist wants to also be available in other languages! Don't hesitate to submit your contribution!
+Este projecto quiere estar disponible en más idiomas! No dudes en enviar tu contribución!
 
-* 🇵🇹 Portuguese: [fernandofawkes/Front-End-Performance-Checklist](https://github.com/fernandofawkes/Front-End-Performance-Checklist)
-* 🇨🇳 Chinese: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
-* 🇷🇺 Russian: [lex111/Front-End-Performance-Checklist](https://github.com/lex111/Front-End-Performance-Checklist)
-* 🇫🇷 French: [WilliamDASILVA/Front-End-Performance-Checklist](https://github.com/WilliamDASILVA/Front-End-Performance-Checklist)
-* 🇰🇷 Korean: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
+* 🇺🇸 Inglés: [thedaviddias/Front-End-Performance-Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist)
+* 🇵🇹 Portugués: [fernandofawkes/Front-End-Performance-Checklist](https://github.com/fernandofawkes/Front-End-Performance-Checklist)
+* 🇨🇳 Chino: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
+* 🇷🇺 Ruso: [lex111/Front-End-Performance-Checklist](https://github.com/lex111/Front-End-Performance-Checklist)
+* 🇫🇷 Francés: [WilliamDASILVA/Front-End-Performance-Checklist](https://github.com/WilliamDASILVA/Front-End-Performance-Checklist)
+* 🇰🇷 Coreano: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
+* 🇻🇳 Vietnamita: [huynhan147/Front-End-Performance-Checklist](https://github.com/huynhan147/FrontEnd-Performance-Checklist)
+* 🇯🇵 Japonés: [GameWith/Front-End-Performance-Checklist](https://github.com/GameWith/Front-End-Performance-Checklist)
+* 🇵🇱 Polaco: [mbiesiad/Front-End-Performance-Checklist](https://github.com/mbiesiad/Front-End-Performance-Checklist)
+* 🇮🇷 Persa: [ms-fadaei/Front-End-Performance-Checklist](https://github.com/ms-fadaei/Front-End-Performance-Checklist)
 
-## Contributing
+## Contribuir
 
-**Open an issue or a pull request to suggest changes or additions.**
+**Puede abrir un issue o un pull request para sugerir cambios o adiciones.**
 
-## Support
+## Soporte
 
-If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
+Si tiene alguna pregunta o sugerencia, no dude en usar Discord o Twitter:
 
-* [Chat on Discord](https://discord.gg/btHQRkm)
+* [Chat en Discord](https://discord.gg/btHQRkm)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
-## Author
+## Autor
 
-**Build with ❤️ by [David Dias](https://github.com/thedaviddias) at [@influitive](https://influitive.com/) 🇨🇦**
+**Hecho con ❤️ por [David Dias](https://github.com/thedaviddias)
 
-## Contributors
+## Colaboradores
 
-This project exists thanks to all the people who contribute. [[Contribute]](.github/CONTRIBUTING.md).
+Este proyecto existe gracias a todas las personas que contribuyen. [[Contribuir]](.github/CONTRIBUTING.md).
 <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist/graphs/contributors">
     <img src="https://opencollective.com/front-end-checklist/contributors.svg?width=890" />
 </a>
 
 
-## Backers
+## Padrinos
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/front-end-checklist#backer)]
+Gracias a todos los padrinos (backers)! 🙏 [[Conviertete en un padrino](https://opencollective.com/front-end-checklist#backer)]
 
 <a href="https://opencollective.com/front-end-checklist#backers" target="_blank"><img src="https://opencollective.com/front-end-checklist/backers.svg?width=890"></a>
 
 
-## Sponsors
+## Patrocinadores
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/front-end-checklist#sponsor)]
+Apoya este proyecto convirtiéndote en un patrocinador. Tu logo aparecerá aquí con un enlace a tu sitio web. [[Conviértete en patrocinador](https://opencollective.com/front-end-checklist#sponsor)]
 
 <a href="https://opencollective.com/front-end-checklist/sponsor/0/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/front-end-checklist/sponsor/1/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/1/avatar.svg"></a>
@@ -699,13 +688,13 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/front-end-checklist/sponsor/8/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/8/avatar.svg"></a>
 <a href="https://opencollective.com/front-end-checklist/sponsor/9/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/9/avatar.svg"></a>
 
-## License
+## Licencia
 
 [MIT](LICENSE)
 
-All icons are provided by [Icons8](https://icons8.com/)
+Todos los iconos son provistos por [Icons8](https://icons8.com/)
 
-**[⬆ volver arriba](#tabla-de-contenidos)**
+**[⬆ Regresar al inicio](#table-of-contents)**
 
 [logo]: images/logo-front-end-performance-checklist.jpg
 [html]: images/html.png
@@ -715,6 +704,6 @@ All icons are provided by [Icons8](https://icons8.com/)
 [javascript]: images/javascript.png
 [server-side]: images/server-side.png
 
-[low]: https://front-end-checklist.now.sh/low.svg
-[medium]: https://front-end-checklist.now.sh/medium.svg
-[high]: https://front-end-checklist.now.sh/high.svg
+[low]: images/priority/low.svg
+[medium]: images/priority/medium.svg
+[high]: images/priority/high.svg
