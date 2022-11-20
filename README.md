@@ -161,7 +161,7 @@ Lista de herramientas que puede utilizar para probar o monitorear el sitio o apl
     * 📖 [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
     * 📖 [What is Preload, Prefetch, and Preconnect](https://www.keycdn.com/blog/resource-hints)
 
-**[⬆ Regresar al inicio](#table-of-contents)**
+**[⬆ Regresar al inicio](#introducción)**
 
 ## CSS
 
@@ -272,7 +272,7 @@ Lista de herramientas que puede utilizar para probar o monitorear el sitio o apl
     * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
     * 🛠 [Project Wallace](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
 
-**[⬆ Regresar al inicio](#table-of-contents)**
+**[⬆ Regresar al inicio](#introducción)**
 
 ## Fuentes
 
@@ -323,7 +323,7 @@ Lista de herramientas que puede utilizar para probar o monitorear el sitio o apl
  * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
  * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
-**[⬆ Regresar al inicio](#table-of-contents)**
+**[⬆ Regresar al inicio](#introducción)**
 
 ## Imágenes
 
@@ -410,7 +410,7 @@ Lista de herramientas que puede utilizar para probar o monitorear el sitio o apl
 
      * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-**[⬆ Regresar al inicio](#table-of-contents)**
+**[⬆ Regresar al inicio](#introducción)**
 
 ## JavaScript
 
@@ -504,7 +504,7 @@ Lista de herramientas que puede utilizar para probar o monitorear el sitio o apl
     * 📖 [What Are Service Workers and How They Help Improve Performance](https://www.keycdn.com/blog/service-workers/)
     * 📹 [How does a service worker work? - YouTube](https://www.youtube.com/watch?v=__xAtWgfzvc)
 
-**[⬆ Regresar al inicio](#table-of-contents)**
+**[⬆ Regresar al inicio](#introducción)**
 
 ## Servidor
 
@@ -590,7 +590,7 @@ Lista de herramientas que puede utilizar para probar o monitorear el sitio o apl
  * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
  * 📖 [Can I use... Brotli](https://caniuse.com/#feat=brotli)
 
-**[⬆ Regresar al inicio](#table-of-contents)**
+**[⬆ Regresar al inicio](#introducción)**
 
 ---
 ## Rendimiento y frameworks de JavaScript
@@ -694,7 +694,7 @@ Apoya este proyecto convirtiéndote en un patrocinador. Tu logo aparecerá aquí
 
 Todos los iconos son provistos por [Icons8](https://icons8.com/)
 
-**[⬆ Regresar al inicio](#table-of-contents)**
+**[⬆ Regresar al inicio](#introducción)**
 
 [logo]: images/logo-front-end-performance-checklist.jpg
 [html]: images/html.png

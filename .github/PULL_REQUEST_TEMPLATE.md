@@ -1,18 +1,18 @@
-**Fixes**: #
+**Arreglos**: #
 
-🚨 Please review the [guidelines for contributing](CONTRIBUTING.md) and our [code of conduct](../CODE_OF_CONDUCT.md) to this repository. 🚨
-**Please complete these steps and check these boxes (by putting an x inside the brackets) before filing your PR:**
+🚨 Por favor revise las [pautas para contribuir](CONTRIBUTING.md) y nuestro [código de conducta](../CODE_OF_CONDUCT.md) para este repositorio. 🚨
+**Complete estos pasos y marque estas casillas (colocando una x dentro de los corchetes) antes de presentar su PR:**
 
-- [ ] Check the commit's or even all commits' message styles matches our requested structure.
-- [ ] Check your code additions will fail neither code linting checks nor unit test.
+- [ ] Verifique que los commits o incluso los estilos de mensaje de todos los compromisos coincidan con la estructura de su solicitud.
+- [ ] Verifique que las adiciones de su código no fallen ni en los tests de linting ni en los unit tests.
 
-#### Short description of what this resolves:
+#### Breve descripción de lo que esto resuelve:
 
 
-#### Proposed changes:
+#### Cambios propuestos:
 
 -
 -
 -
 
-👍 Thank you!
+👍 Gracias!

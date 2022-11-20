@@ -1,31 +1,30 @@
-# Contribute
+# Contribuir
 
-## Introduction
+## Introducción
 
-First, thank you for considering contributing to the Front-End Performance Checklist! It's people like you that make the open source community such a great community! 😊
+En primer lugar, ¡gracias por considerar contribuir a la Lista de verificación de rendimiento de front-end! ¡Son personas como usted las que hacen que la comunidad de código abierto sea una comunidad tan grandiosa! 😊
 
-We welcome any type of contribution, not only code. You can help with
-- **QA**: file bug reports, the more details you can give the better (e.g. screenshots with the console open)
-- **Marketing**: writing blog posts, howto's, printing stickers, ...
-- **Community**: presenting the project at meetups, organizing a dedicated meetup for the local community, ...
-- **Code**: take a look at the [open issues](https://github.com/thedaviddias/Front-End-Performance-Checklist/issues). Even if you can't write code, commenting on them, showing that you care about a given issue matters. It helps us triage them.
+Damos la bienvenida a cualquier tipo de contribución, no solo código. Puedes ayudar con
+- **QA**: archivar errores, cuantos más detalles pueda dar, mejor (por ejemplo, capturas de pantalla con la consola abierta)
+- **Marketing**: escribir publicaciones de blog, instrucciones, imprimir stickers, ...
+- **Community**: presentar el proyecto en reuniones, organizar una reunión dedicada a la comunidad local, ...
+- **Code**: revise la sección de [open issues](https://github.com/thedaviddias/Front-End-Performance-Checklist/issues). Incluso si no puede escribir código, comentarlos y demostrar que se preocupa por un tema determinado es importante. Nos ayuda a clasificarlos.
 
-## Your First Contribution
+## Tu primera contribución
 
-Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
+¿Estás trabajando en tu primera solicitud de extracción? Puedes revisar antes este artículo, [7 common mistakes new contributors make in Open Source Software](https://dev.to/codergirl1991/7-common-mistakes-new-contributors-make-in-open-source-software-2noo).
 
-## Submitting code
+## Enviando código
 
-Any code change should be submitted as a pull request. The description should explain what the code does and give steps to execute it. The pull request should also contain tests.
+Cualquier cambio de código debe enviarse como una solicitud de extracción. La descripción debe explicar qué hace el código y dar los pasos para ejecutarlo. La solicitud de extracción también debe contener pruebas.
 
-## Code review process
+## Proceso de revisión de código
 
-The bigger the pull request, the longer it will take to review and merge. Try to break down large pull requests in smaller chunks that are easier to review and merge.
-It is also always helpful to have some context for your pull request. What was the purpose? Why does it matter to you?
+Cuanto más grande sea la solicitud de extracción, más tiempo llevará revisar y fusionar. Intente dividir las solicitudes de extracción grandes en partes más pequeñas que sean más fáciles de revisar y fusionar.
+Siempre es útil tener algo de contexto para su solicitud de extracción. ¿Cuál fue el propósito? ¿Por qué te importa?
 
-## Questions
-
-If you have any questions, create an [issue](issue) (protip: do a quick search first to see if someone else didn't ask the same question before!).
-You can also reach us at thedaviddias@gmail.com.
+## Preguntas
+Si tiene alguna pregunta, cree un [issue](issue) (protip: haga una búsqueda rápida primero para ver si alguien más no hizo la misma pregunta antes).
+También puede comunicarse con nosotros al correo thedaviddias@gmail.com (autor de la versión original en inglés), o a dagerzuga@gmail.com (colaborador de la versión en español).
 
 <!-- This `CONTRIBUTING.md` is based on @nayafia's template https://github.com/nayafia/contributing-template -->
